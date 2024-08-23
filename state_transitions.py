@@ -1,5 +1,5 @@
 from pandas import DataFrame
-from .data import ModelInstance, State, model_parameter_names, state_variable_names
+from data import ModelInstance, State, model_parameter_names, state_variable_names
 
 # Abstract definitions of the recursive DataFrame row generation
 def system_state_transition(max_day: int, state_frame: DataFrame) -> DataFrame:

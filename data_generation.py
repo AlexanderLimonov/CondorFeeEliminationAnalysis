@@ -1,8 +1,8 @@
 import pandas as pd
 from pandas import DataFrame
 from concurrent.futures import ProcessPoolExecutor, as_completed
-from .data import ModelParameters, ModelInstance, generate_model_instances, init_state_dataframe, init_state
-from .state_transitions import state_transition
+from data import ModelParameters, ModelInstance, generate_model_instances, init_state_dataframe, init_state
+from state_transitions import state_transition
 
 
 import time

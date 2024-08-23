@@ -1,6 +1,6 @@
 import pandas as pd
-from .data import restricted_model_parameters
-from .data_generation import generate_data
+from data import restricted_model_parameters
+from data_generation import generate_data
 
 # Make sure we can see everything
 pd.set_option('display.max_columns', None)
